@@ -5,13 +5,12 @@ import requests
 
 class RequestAPI:
     def __init__(
-        self, host_url: str, api_key: str,
+        self, api_key: str,
     ):
-        """Constructor requires Host-URL and API-KEY
+        """Constructor requires API-KEY
 
             Args:
-                host_url (str): Host url to sonarr.
-                api_key: API key from Sonarr. You can find this
+                api_key: API key from Octopus Energy.
         """
         self.host_url = "https://api.octopus.energy/v1"
         self.api_key = api_key

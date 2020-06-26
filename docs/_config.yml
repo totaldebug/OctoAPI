@@ -1,0 +1,16 @@
+remote_theme: totaldebug/just-the-docs
+
+title: OctoAPI
+description: OctoAPI is a Python API Wrapper for Octopus Energy
+
+# Specific to this theme
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+ga_tracking: UA-XXXXX-Y
+heading_anchors: true
+color_scheme: "dark"
+footer_content: 'Copyright &copy; 2017-2020 Steven Marks. Distributed by an <a href="https://github.com/marksie1988/OctoAPI/tree/master/LICENSE.md">MIT license.</a>'
+# Aux links for the upper right navigation
+aux_links:
+  "OctoAPI on GitHub":
+    - "//github.com/totaldebug/OctoAPI"

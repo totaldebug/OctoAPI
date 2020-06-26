@@ -6,9 +6,9 @@ authors = ["Steven Marks <marksie1988@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["octopus", "energy", "octopusenergy", "api", "wrapper"]
-homepage = "https://github.com/totaldebug/octopus-energy-py-wrapper"
-repository = "https://github.com/totaldebug/octopus-energy-py-wrapper"
-documentation = "https://docs.totaldebug.uk/octopus-energy-py-wrapper"
+homepage = "https://github.com/totaldebug/OctoAPI"
+repository = "https://github.com/totaldebug/OctoAPI"
+documentation = "https://docs.totaldebug.uk/OctoAPI"
 
 classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
