@@ -1,0 +1,23 @@
+{
+  "name": "OctoAPI",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "workspaceFolder": "/OctoAPI",
+  "workspaceMount": "type=bind,source=/home/stev2673/repos/OctoAPI,target=/OctoAPI",
+  "extensions": [
+    "github.vscode-pull-request-github",
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one",
+    "wakatime.vscode-wakatime"
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "editor.tabSize": 2,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true
+  },
+  "postCreateCommand": "poetry shell && poetry install"
+}
