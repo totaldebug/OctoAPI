@@ -1,0 +1,17 @@
+#osx
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# cache
+__pycache__
+.idea
+
+# python
+*.pyc
+
+# PyPi
+dist
+build
+.vscode
+PyArr.egg-info

@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "OctoAPI"
+version = "0.1.0"
+description = "A Pyhton API Wrapper for Octopus Energy"
+authors = ["Steven Marks <marksie1988@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["octopus", "energy", "octopusenergy", "api", "wrapper"]
+homepage = "https://github.com/totaldebug/octopus-energy-py-wrapper"
+repository = "https://github.com/totaldebug/octopus-energy-py-wrapper"
+documentation = "https://docs.totaldebug.uk/octopus-energy-py-wrapper"
+
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent"
+]
+packages = [
+    {include = "OctoAPI"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.21.0"
+
+
+[tool.poetry.dev-dependencies]
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[tool.black]
+line-length = 88
+target_version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
